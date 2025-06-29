@@ -3,7 +3,7 @@ import {ThemeContext} from '../context/ThemeContext'
 import {FaSearch, FaTrash} from 'react-icons/fa'
 import './Weather.css'
 
-const API_KEY = process.env.REACT_APP_API_KEY
+const API_KEY = process.env.REACT_APP_API_WEATHER_KEY
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
 
 // Helper function to load from localStorage
